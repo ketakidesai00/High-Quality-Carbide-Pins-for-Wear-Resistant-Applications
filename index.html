@@ -1,0 +1,258 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>High-Quality Carbide Pins for Wear-Resistant Applications</title>
+  <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,700;1,400&family=Source+Serif+4:wght@300;400;600&display=swap" rel="stylesheet"/>
+  <style>
+    *, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
+
+    :root {
+      --ink: #0d1b2a;
+      --paper: #eef2f7;
+      --steel: #1a3a5c;
+      --accent: #1565c0;
+      --muted: #4a6080;
+      --rule: #b0bec5;
+    }
+
+    body {
+      background-color: var(--paper);
+      color: var(--ink);
+      font-family: 'Source Serif 4', Georgia, serif;
+      font-weight: 300;
+      line-height: 1.85;
+      min-height: 100vh;
+      padding: 60px 20px;
+      background-image:
+        radial-gradient(ellipse at top right, #c9d8ee 0%, transparent 55%),
+        radial-gradient(ellipse at bottom left, #d8e4f0 0%, transparent 55%);
+    }
+
+    .page-wrap {
+      max-width: 760px;
+      margin: 0 auto;
+      background: #ffffff;
+      border: 1px solid var(--rule);
+      box-shadow:
+        0 2px 6px rgba(0,0,0,0.06),
+        0 16px 48px rgba(21,101,192,0.10),
+        0 0 0 6px #fff,
+        0 0 0 7px var(--rule);
+      padding: 64px 72px;
+      animation: fadeUp 0.9s ease both;
+    }
+
+    @keyframes fadeUp {
+      from { opacity: 0; transform: translateY(28px); }
+      to   { opacity: 1; transform: translateY(0); }
+    }
+
+    .kicker {
+      font-size: 11px;
+      letter-spacing: 0.22em;
+      text-transform: uppercase;
+      color: var(--accent);
+      font-weight: 600;
+      margin-bottom: 18px;
+      display: block;
+    }
+
+    h1 {
+      font-family: 'Playfair Display', Georgia, serif;
+      font-size: clamp(1.8rem, 4.5vw, 2.6rem);
+      font-weight: 700;
+      line-height: 1.18;
+      color: var(--steel);
+      margin-bottom: 10px;
+      letter-spacing: -0.01em;
+    }
+
+    .byline {
+      font-size: 12.5px;
+      color: var(--muted);
+      letter-spacing: 0.06em;
+      border-top: 1px solid var(--rule);
+      border-bottom: 1px solid var(--rule);
+      padding: 10px 0;
+      margin: 22px 0 32px;
+      display: flex;
+      justify-content: space-between;
+    }
+
+    .image-block {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      margin: 0 0 36px;
+    }
+
+    .article-image {
+      width: 500px;
+      height: 500px;
+      object-fit: cover;
+      display: block;
+      border-top: 3px solid var(--accent);
+      border-bottom: 1px solid var(--rule);
+    }
+
+    figcaption {
+      font-size: 11.5px;
+      color: var(--muted);
+      font-style: italic;
+      margin-top: 10px;
+      text-align: center;
+      letter-spacing: 0.03em;
+      max-width: 500px;
+    }
+
+    h2 {
+      font-family: 'Playfair Display', serif;
+      font-size: 1.4rem;
+      font-weight: 700;
+      color: var(--steel);
+      margin: 42px 0 14px;
+      padding-bottom: 8px;
+      border-bottom: 2px solid var(--accent);
+      display: inline-block;
+    }
+
+    h3 {
+      font-family: 'Source Serif 4', serif;
+      font-size: 1.05rem;
+      font-weight: 600;
+      color: var(--accent);
+      letter-spacing: 0.04em;
+      margin: 28px 0 10px;
+    }
+
+    p {
+      font-size: 1.02rem;
+      color: #1c2d3e;
+      margin-bottom: 20px;
+      text-align: justify;
+      hyphens: auto;
+    }
+
+    .drop-cap::first-letter {
+      font-family: 'Playfair Display', serif;
+      font-size: 4.2rem;
+      font-weight: 700;
+      float: left;
+      line-height: 0.78;
+      margin: 6px 10px 0 0;
+      color: var(--accent);
+    }
+
+    .read-more {
+      display: inline-flex;
+      align-items: center;
+      gap: 8px;
+      margin-top: 12px;
+      color: var(--accent);
+      text-decoration: none;
+      font-family: 'Source Serif 4', serif;
+      font-size: 0.88rem;
+      font-weight: 600;
+      letter-spacing: 0.09em;
+      text-transform: uppercase;
+      border-bottom: 1.5px solid var(--accent);
+      padding-bottom: 2px;
+      transition: color 0.2s, border-color 0.2s;
+    }
+
+    .read-more:hover { color: var(--steel); border-color: var(--steel); }
+    .read-more::after { content: "→"; font-size: 1rem; }
+
+    .author-box {
+      margin-top: 48px;
+      padding: 24px 28px;
+      background: #f0f6ff;
+      border-left: 4px solid var(--accent);
+      border-radius: 0 4px 4px 0;
+    }
+
+    .author-box strong {
+      font-family: 'Playfair Display', serif;
+      font-size: 1rem;
+      color: var(--steel);
+      display: block;
+      margin-bottom: 8px;
+    }
+
+    .author-box p {
+      font-size: 0.92rem;
+      color: var(--muted);
+      margin-bottom: 4px;
+      text-align: left;
+    }
+
+    .author-box a { color: var(--accent); text-decoration: none; }
+    .author-box a:hover { text-decoration: underline; }
+
+    @media (max-width: 620px) {
+      .page-wrap { padding: 36px 22px; }
+      .article-image { width: 100%; height: auto; }
+    }
+  </style>
+</head>
+<body>
+  <div class="page-wrap">
+
+    <span class="kicker">Precision Tooling &amp; Wear-Resistant Engineering</span>
+
+    <h1>High-Quality Carbide Pins for Wear-Resistant Applications</h1>
+
+    <div class="byline">
+      <span>By <strong>Attri Tech Machines Pvt. Ltd.</strong></span>
+      <span>March 11, 2026 &nbsp;·&nbsp; 5 min read</span>
+    </div>
+
+    <div class="image-block">
+      <img
+        class="article-image"
+        src="carbide-pins.jpg"
+        alt="High-Quality Carbide Pins for Wear-Resistant Applications"
+        width="500"
+        height="500"
+      />
+      <figcaption>High-quality tungsten carbide pins engineered for superior wear resistance in demanding industrial applications — Attri Tech Machines Pvt. Ltd.</figcaption>
+    </div>
+
+    <h2>Understanding Carbide Pins and Their Industrial Importance</h2>
+
+    <p class="drop-cap">Carbide pins are precision components manufactured using tungsten carbide — a composite material made by combining tungsten and carbon atoms that is significantly harder than steel and highly resistant to wear and deformation. In mechanical systems, these pins serve as alignment guides, locating elements, or wear-resistant contact points. They can withstand extreme operating environments including high pressure, elevated temperatures, and abrasive conditions without suffering the rapid wear typically seen in steel components.</p>
+
+    <p>Because of this exceptional reliability, high-quality carbide pins are widely used in precision engineering, tooling systems, automotive components, aerospace assemblies, and industrial machinery worldwide.</p>
+
+    <h2>Why Wear Resistance Matters in Industrial Applications</h2>
+
+    <p>Wear is one of the biggest challenges in manufacturing environments. Every time two surfaces interact, friction slowly removes material from the contact area — eventually affecting accuracy, performance, and safety. When pins are exposed to continuous friction or abrasive materials, standard alloys degrade quickly, leading to misalignment, vibration, and mechanical failure. Switching to carbide pins significantly improves equipment lifespan, reduces machine downtime, and ensures consistent system performance over long periods.</p>
+
+    <h3>Superior Material Properties of Tungsten Carbide</h3>
+
+    <p>High-quality carbide pins offer a rare combination of extreme hardness, high compressive strength, and excellent thermal stability. Carbide is far harder than hardened steel — resisting scratching and abrasion in aggressive environments. Under heavy loads, carbide pins resist deformation while maintaining dimensional stability even when heat from friction would cause ordinary materials to expand or weaken. These properties allow carbide pins to perform reliably in situations where other materials simply cannot survive.</p>
+
+    <h2>Manufacturing Process &amp; Industrial Applications</h2>
+
+    <p>Production begins with carefully selected tungsten carbide powder mixed with a cobalt binder, then compacted into precision molds and sintered at high temperatures to create an extremely dense, hard structure. Precision grinding and finishing ensure exact dimensional specifications. In tooling systems, carbide pins maintain die and mold alignment. Automotive assembly lines rely on them to guide components under continuous stress. Aerospace applications demand their strict tolerance maintenance, and heavy industrial machinery depends on their abrasion resistance under high loads.</p>
+
+    <h3>Attri Tech Machines Pvt. Ltd. — Trusted Carbide Pin Manufacturer</h3>
+
+    <p>Attri Tech Machines Pvt. Ltd. is recognized as a global supplier and leading manufacturer exporter of high-quality carbide pins. With advanced production facilities, years of manufacturing expertise, and rigorous quality control — including raw material testing, in-process dimensional checks, and precision grinding — the company delivers carbide pins that meet strict international standards. Industries worldwide rely on their engineering expertise for components that deliver extended service life, consistent precision, and outstanding wear resistance.</p>
+
+    <a class="read-more" href="https://attritechmachines.com/high-quality-carbide-pins-for-wear-resistant-applications/" target="_blank" rel="noopener">
+      View Product Details at Attri Tech Machines
+    </a>
+
+    <div class="author-box">
+      <strong>Attri Tech Machines Pvt. Ltd.</strong>
+      <p>Plot No. 10 &amp; 11, Gopal Industrial Compound, Meerut Road Industrial Area, Ghaziabad, UP – 201001, India</p>
+      <p>Phone: +91-120-2701600 &nbsp;|&nbsp; Email: attritechmachines@gmail.com</p>
+      <p>Website: <a href="https://attritechmachines.com" target="_blank" rel="noopener">www.attritechmachines.com</a></p>
+    </div>
+
+  </div>
+</body>
+</html>
